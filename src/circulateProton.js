@@ -11,8 +11,8 @@ function circulateProton(matrix) {
       matrixCopy[i][lastPosition] = 'p';
     }
   }
-  matrixCopy[lastPosition - 1][lastPosition - 1] = 'p';
 
+  matrixCopy[lastPosition - 1][lastPosition - 1] = 'p';
   return matrixCopy;
 }
 
