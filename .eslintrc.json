@@ -3,7 +3,14 @@
         "browser": true,
         "es2021": true
     },
-    "extends": "airbnb-base",
+    "plugins": [
+        "prettier"
+    ],
+    "extends": [
+        "eslint:recommended",
+        "plugin:node/recommended",
+        "eslint-config-airbnb-base"
+    ],
     "overrides": [],
     "parserOptions": {
         "ecmaVersion": "latest",
@@ -11,6 +18,6 @@
     },
     "rules": {
         "linebreak-style": "off",
-        "no-console": "off",
+        "no-console": "off"
     }
 }
